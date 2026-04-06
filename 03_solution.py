@@ -1,6 +1,6 @@
-numbers = 3
+def multiply(p1, p2):
+    return p1 * p2
 
-for i in range(1,11):
-    if i==5:
-        continue
-    print(numbers, 'x', i, '=', numbers * i)
+print(multiply(5,5))
+print(multiply('a',5))
+print(multiply(5,'a'))

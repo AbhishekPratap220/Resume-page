@@ -1,8 +1,10 @@
-input_str = "Python"
-reversed_str =""
+import math
 
-for char in input_str:
-    # print(char)
-    reversed_str = char + reversed_str
+def circle_states(radius):
+    area = math.pi * radius **2
+    circumference = math.pi * radius
+    return area, circumference
 
-print(reversed_str)
+a,c = circle_states(3)
+
+print("area", a, "circumference", c)

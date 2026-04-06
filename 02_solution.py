@@ -1,7 +1,5 @@
-n = 10
-sum_even = 0
+def Add(one_num, two_num):
+    return one_num + two_num
 
-for i in range(1, 21):
-    if i%2 ==0:
-        sum_even += 1
-print('Sum of even numbers of is:',sum_even)
+result = Add(5,5)
+print(result)

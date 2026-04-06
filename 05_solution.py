@@ -1,7 +1,5 @@
-input_str = 'teeteracdacd'
+def greet(name = "User"): 
+    return "Hello, " + name + " !"
 
-for char in input_str:
-    print(char)
-    if input_str.count(char) == 1:
-        print('Char is:', char)
-        break
+print(greet("Chai"))
+# print(greet())

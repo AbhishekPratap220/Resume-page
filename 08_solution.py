@@ -1,11 +1,9 @@
-number = 29
+def print_kwargs(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
 
-is_prime = True
+print_kwargs(name = 'shaktiman', power = 'lezar')
+print_kwargs(name = 'shaktiman')
+print_kwargs(name = 'shaktiman', power = 'lezar')
 
-if number >1:
-    for i in range(1,number):
-        if(number % i ) == 0:
-            is_prime = False
-            break
-
-print(is_prime)
+enemy = 'Dr. Jackaal'
