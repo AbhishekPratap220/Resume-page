@@ -1,10 +1,7 @@
-distance = 88
+numbers = 2
+factorial = 1
 
-if distance < 3:
-    transport ='Walk'
-elif distance <= 15:
-    transport = 'Bike'
-else:
-    transport = 'Car'
-
-print('AI recommends you the transport of:',transport)
+while numbers > 0:
+    factorial = factorial * numbers
+    numbers = numbers -1
+print('factorical is ', factorial)

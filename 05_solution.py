@@ -1,12 +1,7 @@
-weather = 'Rainy'
+input_str = 'teeteracdacd'
 
-if weather == 'Sunny':
-    activities = 'Go for a walk'
-elif weather == 'Rainy':
-    activities = 'Read a book'
-elif weather == 'Snowy':
-    activities = 'Snowman'
-else:
-    activities = 'No'
-
-print(activities)
+for char in input_str:
+    print(char)
+    if input_str.count(char) == 1:
+        print('Char is:', char)
+        break

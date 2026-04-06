@@ -1,10 +1,7 @@
-age = 18
-day = 'sunday'
+n = 10
+sum_even = 0
 
-price = 12 if age >= 18 else 8
-
-if day =='Wednesday':
-    price = price -2
-    #price -= 2
-
-print('Trick price for you is $:', price)
+for i in range(1, 21):
+    if i%2 ==0:
+        sum_even += 1
+print('Sum of even numbers of is:',sum_even)

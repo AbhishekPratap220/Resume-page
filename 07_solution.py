@@ -1,8 +1,7 @@
-order_size = 'large '
-extra_shot = True
-
-if extra_shot:
-    coffee = order_size + 'coffee with an extra_shot'
-else:
-    coffee = order_size + 'offee'
-print('Order:', coffee)
+while True:
+    numbers = int(input("Enter value b/w 1 and 10:"))
+    if 1<= numbers <= 10:
+        print("Thanks")
+        break
+    else:
+        print("Invalid number, tys again:")

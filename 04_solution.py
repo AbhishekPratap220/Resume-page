@@ -1,12 +1,8 @@
-fruit = 'mango'
-color = 'brown'
+input_str = "Python"
+reversed_str =""
 
-if fruit == 'banana':
-    if color == 'green':
-        print('UnRipe')
-    elif color == 'yellow':
-        print('Ripe')
-    elif color == 'brown':
-        print('OverRipe')
-else:
-    print('No items here basket!')
+for char in input_str:
+    # print(char)
+    reversed_str = char + reversed_str
+
+print(reversed_str)

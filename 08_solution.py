@@ -1,11 +1,11 @@
-password = 'abhi'
+number = 29
 
-pass_len = len(password)
+is_prime = True
 
-if pass_len <6:
-    strength = 'Week'
-elif pass_len <=10:
-    strength = 'Medium'
-else:
-    strength = 'strong'
-print('Password strength is: ', strength)
+if number >1:
+    for i in range(1,number):
+        if(number % i ) == 0:
+            is_prime = False
+            break
+
+print(is_prime)
