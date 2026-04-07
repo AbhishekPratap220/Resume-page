@@ -151,11 +151,25 @@ margin: auto;
     margin-left:10px;
     vertical-align: middle;
 }
-
 /* set background-color */
 
 .mb-blue{
     background-color: #2857a4;
+}
+.mb-purple{
+    background-color: rgb(248, 24, 58);
+}
+.mb-pink{
+    background-color: peru;
+}
+.mb-skyblue{
+    background-color:salmon;
+}
+.mb-lightgray{
+    background-color: rgb(9, 180, 95);
+}
+.mb-orange{
+    background-color: rgb(240, 119, 71);
 }
 
 /* percentage classes */
@@ -163,4 +177,8 @@ margin: auto;
 .fifty-percent{
     height: inherit;
     width: 50%;
+}
+.fifty-percent .mb-orange{
+    height: inherit;
+    width: 90%;
 }
