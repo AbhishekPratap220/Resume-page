@@ -178,7 +178,11 @@ margin: auto;
     height: inherit;
     width: 50%;
 }
-.fifty-percent .mb-orange{
+.Ninety-percent{
     height: inherit;
     width: 90%;
+}
+.eighty-percent{
+    height: inherit;
+    width: 60%;
 }
