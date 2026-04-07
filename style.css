@@ -186,3 +186,21 @@ margin: auto;
     height: inherit;
     width: 60%;
 }
+
+/* Work Experience */
+/* Timeline */
+
+.timeline{
+    border: 2px solid black;
+    width: 75%;
+    position: relative;
+}
+.timeline-box{
+    border: 2px solid black;
+    height:100px;
+    width:40%;
+    position: relative;
+}
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
