@@ -204,3 +204,18 @@ margin: auto;
 .timeline-box:nth-child(2n){
     left: 53%;
 }
+
+/* .timeline-box:nth-child() */
+
+.timeline-divider{
+    height: 75%;
+    width: 0;
+    top:0;
+    position: absolute;
+    left: 50%;
+}
+
+.timeline-traveller{
+    top:30%;
+    position:sticky;
+}
